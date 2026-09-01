@@ -527,13 +527,13 @@ html[data-theme="light"] .section-title {
     margin-left: -410px;
     margin-top: -108px;
     width: calc(100% + 410px);
+    filter: drop-shadow(0 0 10px rgba(255, 162, 59, 0.24)) drop-shadow(0 0 24px rgba(255, 120, 30, 0.12));
   }
 
   .hero-pinup-image {
     --lydia-base-scale: 1.05;
     transform: scale(var(--lydia-base-scale));
     transform-origin: left center;
-    filter: drop-shadow(0 0 10px rgba(255, 162, 59, 0.24)) drop-shadow(0 0 24px rgba(255, 120, 30, 0.12));
     animation: lydiaFloat 6.8s ease-in-out infinite alternate;
     will-change: transform;
     backface-visibility: hidden;
