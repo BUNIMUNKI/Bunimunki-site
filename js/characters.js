@@ -183,7 +183,8 @@ async function paintActiveCharacter(withAnimation) {
     caption: `${character.name}${character.role ? ` | ${character.role}` : ""}`
   }));
 
-  const displayImage = usesGgGif ? `${GG_GIF_PATH}?play=${Date.now()}` : character.image;
+  const usesReplayableGif = usesGgGif || usesLydiaGif || usesFekGif || usesSednaGif;
+  const displayImage = usesReplayableGif ? `${character.image}?play=${Date.now()}` : character.image;
   elements.warpMainImage.onload = null;
   elements.warpMainImage.src = displayImage;
   elements.warpMainImage.alt = `${character.name} splash image`;

@@ -514,11 +514,11 @@ html[data-theme="light"] .section-title {
 
 @keyframes lydiaFloat {
   0% {
-    transform: translateX(-4px);
+    transform: translate3d(-4px, 0, 0);
   }
 
   100% {
-    transform: translateX(4px);
+    transform: translate3d(4px, 0, 0);
   }
 }
 
@@ -528,6 +528,8 @@ html[data-theme="light"] .section-title {
     margin-top: -108px;
     width: calc(100% + 410px);
     animation: lydiaFloat 6.8s ease-in-out infinite alternate;
+    will-change: transform;
+    backface-visibility: hidden;
   }
 
   .hero-pinup-image {
