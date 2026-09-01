@@ -514,11 +514,11 @@ html[data-theme="light"] .section-title {
 
 @keyframes lydiaFloat {
   0% {
-    transform: scale(var(--lydia-base-scale)) translate3d(-4px, 0, 0);
+    transform: scale(1.05) translateX(-4px);
   }
 
   100% {
-    transform: scale(var(--lydia-base-scale)) translate3d(4px, 0, 0);
+    transform: scale(1.05) translateX(4px);
   }
 }
 
@@ -532,11 +532,8 @@ html[data-theme="light"] .section-title {
 
   .hero-pinup-image {
     --lydia-base-scale: 1.05;
-    transform: scale(var(--lydia-base-scale));
     transform-origin: left center;
     animation: lydiaFloat 6.8s ease-in-out infinite alternate;
-    will-change: transform;
-    backface-visibility: hidden;
   }
 }
 
