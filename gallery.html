@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Art Gallery | Apprehension and Collection Bureau</title>
+  <meta name="description" content="Browse and filter artwork from Apprehension and Collection Bureau.">
+  <meta name="author" content="BuniMunki">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Bungee:wght@400&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ["Bungee", "sans-serif"],
+            body: ["Baloo 2", "sans-serif"]
+          }
+        }
+      }
+    };
+  </script>
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="font-body antialiased">
+  <a class="skip-link" href="#galleryPage">Skip to content</a>
+
+  <header class="top-nav fixed top-0 z-50 w-full border-b border-white/10 backdrop-blur-lg">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 md:px-8" aria-label="Main navigation">
+      <a id="brandName" href="index.html" class="brand font-display text-lg tracking-wide">Apprehension and Collection Bureau</a>
+      <ul class="hidden items-center gap-6 text-sm md:flex">
+        <li><a href="index.html#home" class="nav-link">Home</a></li>
+        <li><a href="gallery.html" class="nav-link">Art Gallery</a></li>
+        <li><a href="webcomic.html" class="nav-link">Webcomics</a></li>
+        <li><a href="characters.html" class="nav-link">Characters</a></li>
+        <li><a href="arcade.html" class="nav-link">Arcade</a></li>
+        <li><a href="index.html#about" class="nav-link">About</a></li>
+      </ul>
+      <div class="flex items-center gap-2">
+        <button id="mobileNavBtn" class="btn-ghost md:hidden" aria-label="Open mobile menu" type="button">Menu</button>
+      </div>
+    </nav>
+    <div id="mobileNav" class="mobile-nav hidden border-t border-white/10 px-4 py-3 md:hidden">
+      <a href="index.html#home" class="mobile-link">Home</a>
+      <a href="gallery.html" class="mobile-link">Art Gallery</a>
+      <a href="webcomic.html" class="mobile-link">Webcomics</a>
+      <a href="characters.html" class="mobile-link">Characters</a>
+      <a href="arcade.html" class="mobile-link">Arcade</a>
+      <a href="index.html#about" class="mobile-link">About</a>
+    </div>
+  </header>
+
+  <main id="galleryPage" class="section-pad">
+    <section class="mx-auto max-w-7xl px-4 md:px-8">
+      <div class="mb-8 flex flex-wrap items-end justify-between gap-5">
+        <div>
+          <h1 class="section-title">Art Gallery</h1>
+          <p class="section-subtitle">Filter by category, year, and medium. Click any piece for full view.</p>
+        </div>
+        <div class="grid gap-2 sm:grid-cols-3">
+          <label class="filter-wrap">Category
+            <select id="filterCategory" class="filter-select"></select>
+          </label>
+          <label class="filter-wrap">Year
+            <select id="filterYear" class="filter-select"></select>
+          </label>
+          <label class="filter-wrap">Medium
+            <select id="filterMedium" class="filter-select"></select>
+          </label>
+        </div>
+      </div>
+
+      <div id="galleryGrid" class="masonry-grid" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/10 py-8">
+    <div class="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-4 text-sm md:px-8">
+      <p id="footerText"></p>
+      <a href="index.html#home" class="nav-link">Back to home</a>
+    </div>
+  </footer>
+
+  <div id="lightbox" class="modal hidden" role="dialog" aria-modal="true" aria-label="Artwork viewer">
+    <div class="modal-backdrop" data-close="lightbox"></div>
+    <div class="modal-panel lightbox-panel">
+      <button class="modal-close" type="button" data-close="lightbox" aria-label="Close artwork viewer">x</button>
+      <button id="lightboxPrev" class="modal-nav left" type="button" aria-label="Previous artwork">Prev</button>
+      <img id="lightboxImage" src="" alt="Artwork full view" class="lightbox-image">
+      <button id="lightboxNext" class="modal-nav right" type="button" aria-label="Next artwork">Next</button>
+      <p id="lightboxCaption" class="mt-4 text-sm"></p>
+    </div>
+  </div>
+
+  <script src="js/gallery.js" defer></script>
+</body>
+</html>

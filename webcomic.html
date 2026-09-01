@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webcomic Reader | Apprehension and Collection Bureau</title>
+  <meta name="description" content="Read Apprehension and Collection Bureau chapters in vertical and slideshow modes.">
+  <meta name="author" content="BuniMunki">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Bungee:wght@400&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ["Bungee", "sans-serif"],
+            body: ["Baloo 2", "sans-serif"]
+          }
+        }
+      }
+    };
+  </script>
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="font-body antialiased">
+  <a class="skip-link" href="#readerPage">Skip to content</a>
+
+  <header class="top-nav fixed top-0 z-50 w-full border-b border-white/10 backdrop-blur-lg">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 md:px-8" aria-label="Main navigation">
+      <a id="brandName" href="index.html" class="brand font-display text-lg tracking-wide">Apprehension and Collection Bureau</a>
+      <ul class="hidden items-center gap-6 text-sm md:flex">
+        <li><a href="index.html#home" class="nav-link">Home</a></li>
+        <li><a href="gallery.html" class="nav-link">Art Gallery</a></li>
+        <li><a href="webcomic.html" class="nav-link">Webcomics</a></li>
+        <li><a href="characters.html" class="nav-link">Characters</a></li>
+        <li><a href="arcade.html" class="nav-link">Arcade</a></li>
+        <li><a href="index.html#about" class="nav-link">About</a></li>
+      </ul>
+      <div class="flex items-center gap-2">
+        <button id="mobileNavBtn" class="btn-ghost md:hidden" aria-label="Open mobile menu" type="button">Menu</button>
+      </div>
+    </nav>
+    <div id="mobileNav" class="mobile-nav hidden border-t border-white/10 px-4 py-3 md:hidden">
+      <a href="index.html#home" class="mobile-link">Home</a>
+      <a href="gallery.html" class="mobile-link">Art Gallery</a>
+      <a href="webcomic.html" class="mobile-link">Webcomics</a>
+      <a href="characters.html" class="mobile-link">Characters</a>
+      <a href="arcade.html" class="mobile-link">Arcade</a>
+      <a href="index.html#about" class="mobile-link">About</a>
+    </div>
+  </header>
+
+  <main id="readerPage" class="section-pad">
+    <section class="mx-auto max-w-7xl px-4 md:px-8">
+      <h1 class="section-title">Webcomic Reader</h1>
+      <p class="section-subtitle">Choose a chapter, then switch between vertical strip and slideshow modes.</p>
+
+      <div class="mt-7 grid gap-6 lg:grid-cols-[360px_1fr]">
+        <aside class="series-card">
+          <h2 class="font-display text-xl">Chapters</h2>
+          <div id="comicSeriesList" class="mt-4 grid gap-4"></div>
+        </aside>
+
+        <article id="readerPanel" class="modal-panel reader-panel comic-reader-shell">
+          <div class="mb-4 flex flex-wrap items-center justify-between gap-3">
+            <div>
+              <p id="readerSeriesName" class="meta-label"></p>
+              <h2 id="readerChapterTitle" class="font-display text-xl"></h2>
+            </div>
+            <div class="flex flex-wrap items-center gap-2">
+              <button id="readerModeVertical" type="button" class="btn-ghost active">Vertical</button>
+              <button id="readerModeSlide" type="button" class="btn-ghost">Slideshow</button>
+              <button id="readerFullscreenBtn" type="button" class="btn-ghost">Fullscreen</button>
+            </div>
+          </div>
+
+          <div class="progress-wrap" aria-label="Reading progress">
+            <div id="readerProgressBar" class="progress-bar"></div>
+          </div>
+          <p id="readerProgressText" class="mt-2 text-xs"></p>
+
+          <div id="readerVertical" class="reader-vertical mt-4"></div>
+
+          <div id="readerSlide" class="reader-slide mt-4 hidden">
+            <button id="readerPrev" type="button" class="btn-secondary" aria-label="Previous page">&#10094;</button>
+            <img id="readerSlideImage" src="" alt="Comic page" class="reader-slide-image" loading="lazy">
+            <button id="readerNext" type="button" class="btn-secondary" aria-label="Next page">&#10095;</button>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/webcomic.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,697 @@
+{
+    "site":  {
+                 "title":  "Apprehension and Collection Bureau",
+                 "tagline":  "Short comedy comics by BuniMunki following Lydia, Sedna, and Glepglorp (GG).",
+                 "heroEyebrow":  "BuniMunki presents",
+                 "footer":  "Apprehension and Collection Bureau by BuniMunki.",
+                 "featuredArtId":  "art-003",
+                 "latestComic":  {
+                                     "seriesSlug":  "acb-funny-comic",
+                                     "chapterSlug":  "chapter-01"
+                                 }
+             },
+    "about":  {
+                  "name":  "BuniMunki",
+                  "portrait":  "assets/art/monkeymascot.jpg",
+                  "bio":  "Bunimunki is a half bunny. half monkey, norwood 5 balding creature. He has a comic series following Lydia, Sedna, and Glepglorp (GG) as they get up to their antics.",
+                  "highlights":  [
+
+                                 ]
+              },
+    "characters":  [
+                       {
+                           "name":  "Lydia",
+                           "role":  "Operative",
+                           "bio":  "Lydia is the one trying to keep everyone on track, even when the plan is already falling apart. She is sharp, stubborn, and usually the first to realize the situation has gotten ridiculous.",
+                           "image":  "assets/lydia/lydiawarp.gif",
+                           "profileImage":  "assets/lydia/profile.png",
+                           "gallery":  [
+
+                                       ]
+                       },
+                       {
+                           "name":  "Sedna",
+                           "role":  "Wildcard",
+                           "bio":  "Sedna adds chaos to every small errand. She treats questionable ideas like they are completely normal, which makes her either the funniest or most dangerous person in the room.",
+                           "image":  "assets/sedna/sednawarp.gif",
+                           "profileImage":  "assets/sedna/profile.png",
+                           "gallery":  [
+                                           "assets/sedna/profile.png"
+                                       ]
+                       },
+                       {
+                           "name":  "Glepglorp (GG)",
+                           "role":  "Lazy Cat",
+                           "bio":  "GG is a lazy little brat who can be annoying at times, always dodging effort and stirring up nonsense. But she is so cute that everyone usually lets it slide.",
+                           "image":  "assets/gg/warpzonegg.gif",
+                           "profileImage":  "assets/gg/profile.png",
+                           "gallery":  [
+                                           "assets/gg/profile.png"
+                                       ]
+                       },
+                       {
+                           "name":  "Bebe",
+                           "role":  "Rival",
+                           "bio":  "Bebe is Lydia\u0027s rival: competitive, sharp-tongued, and always one step ahead. She thrives on testing Lydia\u0027s patience and proving she\u0027s the better planner.",
+                           "image":  "assets/Bebe/main.png",
+                           "profileImage":  "assets/Bebe/profile.png",
+                           "gallery":  [
+
+                                       ]
+                       },
+                       {
+                           "name":  "Fek",
+                           "role":  "Robotic Ally",
+                           "bio":  "Fek is a loyal robot companion built to assist Lydia on her missions. Reliable, quirky, and surprisingly expressive for a machine, Fek sees every mission as an opportunity for improvement.",
+                           "image":  "assets/Fek/warpfek.gif",
+                           "profileImage":  "assets/Fek/profile.png",
+                           "gallery":  [
+
+                                       ]
+                       }
+                   ],
+    "artworks":  [
+                     {
+                         "id":  "art-073",
+                         "title":  "Screenshot 2026 01 10 124812",
+                         "category":  "Bebe",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/bebe/Screenshot 2026-01-10 124812.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-074",
+                         "title":  "Screenshot 2026 02 01 094011",
+                         "category":  "Bebe",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/bebe/Screenshot 2026-02-01 094011.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-001",
+                         "title":  "Screenshot 2026 03 09 130715",
+                         "category":  "Bebe",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/bebe/Screenshot 2026-03-09 130715.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-002",
+                         "title":  "Screenshot 2026 06 05 082058",
+                         "category":  "Bebe",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/bebe/Screenshot 2026-06-05 082058.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-075",
+                         "title":  "Screenshot 2026 06 05 082121",
+                         "category":  "Bebe",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/bebe/Screenshot 2026-06-05 082121.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-076",
+                         "title":  "Screenshot 2026 06 05 082137",
+                         "category":  "Bebe",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/bebe/Screenshot 2026-06-05 082137.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-003",
+                         "title":  "Vehicals And Buildings",
+                         "category":  "Environment",
+                         "year":  2026,
+                         "medium":  "Full Color",
+                         "image":  "assets/art/enviornment/vehicals and buildings.jpg",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-004",
+                         "title":  "Vehicals And Buildings2",
+                         "category":  "Environment",
+                         "year":  2026,
+                         "medium":  "Full Color",
+                         "image":  "assets/art/enviornment/vehicals and buildings2.jpg",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-008",
+                         "title":  "Main",
+                         "category":  "Fek",
+                         "year":  2026,
+                         "medium":  "Full Color",
+                         "image":  "assets/art/fek/main.jpg",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-009",
+                         "title":  "Profile",
+                         "category":  "Fek",
+                         "year":  2026,
+                         "medium":  "Full Color",
+                         "image":  "assets/art/fek/profile.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-010",
+                         "title":  "Glepglorpcolorref",
+                         "category":  "Glepglorp (GG)",
+                         "year":  2026,
+                         "medium":  "Full Color",
+                         "image":  "assets/art/gg/glepglorpcolorref.jpg",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-011",
+                         "title":  "Screenshot 2025 03 04 200612",
+                         "category":  "Glepglorp (GG)",
+                         "year":  2025,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/gg/Screenshot 2025-03-04 200612.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-012",
+                         "title":  "Screenshot 2025 12 26 113900",
+                         "category":  "Glepglorp (GG)",
+                         "year":  2025,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/gg/Screenshot 2025-12-26 113900.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-013",
+                         "title":  "Screenshot 2026 01 01 131537",
+                         "category":  "Glepglorp (GG)",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/gg/Screenshot 2026-01-01 131537.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-014",
+                         "title":  "Screenshot 2026 01 10 175417",
+                         "category":  "Glepglorp (GG)",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/gg/Screenshot 2026-01-10 175417.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-015",
+                         "title":  "Screenshot 2026 01 27 174808",
+                         "category":  "Glepglorp (GG)",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/gg/Screenshot 2026-01-27 174808.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-016",
+                         "title":  "Screenshot 2026 01 27 174822",
+                         "category":  "Glepglorp (GG)",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/gg/Screenshot 2026-01-27 174822.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-017",
+                         "title":  "Screenshot 2026 03 23 124533",
+                         "category":  "Glepglorp (GG)",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/gg/Screenshot 2026-03-23 124533.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-057",
+                         "title":  "Bunny Lydia",
+                         "category":  "Lydia",
+                         "year":  2026,
+                         "medium":  "Full Color",
+                         "image":  "assets/art/lydia/bunny lydia.jpg",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-018",
+                         "title":  "Even More Lydia22line",
+                         "category":  "Lydia",
+                         "year":  2026,
+                         "medium":  "Full Color",
+                         "image":  "assets/art/lydia/even more lydia22line.jpg",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-068",
+                         "title":  "Ezgif 54050104C693238f",
+                         "category":  "Lydia",
+                         "year":  2026,
+                         "medium":  "Animation",
+                         "image":  "assets/art/lydia/ezgif-54050104c693238f.gif",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-058",
+                         "title":  "Huh",
+                         "category":  "Lydia",
+                         "year":  2026,
+                         "medium":  "Full Color",
+                         "image":  "assets/art/lydia/huh.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-019",
+                         "title":  "Lmya",
+                         "category":  "Lydia",
+                         "year":  2026,
+                         "medium":  "Full Color",
+                         "image":  "assets/art/lydia/lmya.jpg",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-020",
+                         "title":  "Lydia Bikini",
+                         "category":  "Lydia",
+                         "year":  2026,
+                         "medium":  "Full Color",
+                         "image":  "assets/art/lydia/lydia bikini.jpg",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-059",
+                         "title":  "Lydia Jeans",
+                         "category":  "Lydia",
+                         "year":  2026,
+                         "medium":  "Full Color",
+                         "image":  "assets/art/lydia/lydia jeans.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-060",
+                         "title":  "Lydia Jeans2",
+                         "category":  "Lydia",
+                         "year":  2026,
+                         "medium":  "Full Color",
+                         "image":  "assets/art/lydia/lydia jeans2.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-061",
+                         "title":  "Lydia Kcick",
+                         "category":  "Lydia",
+                         "year":  2026,
+                         "medium":  "Full Color",
+                         "image":  "assets/art/lydia/lydia kcick.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-021",
+                         "title":  "Lydiafull4",
+                         "category":  "Lydia",
+                         "year":  2026,
+                         "medium":  "Full Color",
+                         "image":  "assets/art/lydia/lydiafull4.jpg",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-077",
+                         "title":  "Lydiapunch",
+                         "category":  "Lydia",
+                         "year":  2026,
+                         "medium":  "Animation",
+                         "image":  "assets/art/lydia/lydiapunch.gif",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-062",
+                         "title":  "Menacing Lydia",
+                         "category":  "Lydia",
+                         "year":  2026,
+                         "medium":  "Full Color",
+                         "image":  "assets/art/lydia/menacing lydia.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-022",
+                         "title":  "Morelydia3",
+                         "category":  "Lydia",
+                         "year":  2026,
+                         "medium":  "Full Color",
+                         "image":  "assets/art/lydia/morelydia3.jpg",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-023",
+                         "title":  "New2",
+                         "category":  "Lydia",
+                         "year":  2026,
+                         "medium":  "Full Color",
+                         "image":  "assets/art/lydia/new2.jpg",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-024",
+                         "title":  "Protien",
+                         "category":  "Lydia",
+                         "year":  2026,
+                         "medium":  "Full Color",
+                         "image":  "assets/art/lydia/protien.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-026",
+                         "title":  "Screenshot 2026 03 12 185116",
+                         "category":  "Lydia",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/lydia/Screenshot 2026-03-12 185116.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-063",
+                         "title":  "Screenshot 2026 03 20 101538Sketch",
+                         "category":  "Lydia",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/lydia/Screenshot 2026-03-20 101538sketch.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-031",
+                         "title":  "Screenshot 2026 03 28 19285422",
+                         "category":  "Lydia",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/lydia/Screenshot 2026-03-28 19285422.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-064",
+                         "title":  "Screenshot 2026 04 07 090014Sketch",
+                         "category":  "Lydia",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/lydia/Screenshot 2026-04-07 090014sketch.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-033",
+                         "title":  "Screenshot 2026 05 23 105443",
+                         "category":  "Lydia",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/lydia/Screenshot 2026-05-23 105443.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-034",
+                         "title":  "Screenshot 2026 05 23 105626",
+                         "category":  "Lydia",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/lydia/Screenshot 2026-05-23 105626.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-036",
+                         "title":  "Screenshot 2026 05 23 105648",
+                         "category":  "Lydia",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/lydia/Screenshot 2026-05-23 105648.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-065",
+                         "title":  "Screenshot 2026 05 26 220127Sketch",
+                         "category":  "Lydia",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/lydia/Screenshot 2026-05-26 220127sketch.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-066",
+                         "title":  "Screenshot 2026 05 26 220325Wip",
+                         "category":  "Lydia",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/lydia/Screenshot 2026-05-26 220325wip.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-042",
+                         "title":  "Screenshot 2026 06 25 172218",
+                         "category":  "Lydia",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/lydia/Screenshot 2026-06-25 172218.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-078",
+                         "title":  "Screenshot 2026 08 24 082130",
+                         "category":  "Lydia",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/lydia/Screenshot 2026-08-24 082130.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-043",
+                         "title":  "Sweaty Lydia",
+                         "category":  "Lydia",
+                         "year":  2026,
+                         "medium":  "Full Color",
+                         "image":  "assets/art/lydia/sweaty lydia.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-067",
+                         "title":  "Wah",
+                         "category":  "Lydia",
+                         "year":  2026,
+                         "medium":  "Full Color",
+                         "image":  "assets/art/lydia/wah.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-045",
+                         "title":  "Yapyapyap",
+                         "category":  "Lydia",
+                         "year":  2026,
+                         "medium":  "Full Color",
+                         "image":  "assets/art/lydia/yapyapyap.jpg",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-079",
+                         "title":  "Screenshot 2026 04 16 134818",
+                         "category":  "Other",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/other/Screenshot 2026-04-16 134818.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-047",
+                         "title":  "Screenshot 2026 04 16 134835",
+                         "category":  "Other",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/other/Screenshot 2026-04-16 134835.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-048",
+                         "title":  "Screenshot 2026 05 26 220050",
+                         "category":  "Other",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/other/Screenshot 2026-05-26 220050.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-080",
+                         "title":  "Screenshot 2026 06 03 101220",
+                         "category":  "Other",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/other/Screenshot 2026-06-03 101220.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-049",
+                         "title":  "Screenshot 2026 06 18 084004",
+                         "category":  "Other",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/other/Screenshot 2026-06-18 084004.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-050",
+                         "title":  "Screenshot 2026 06 18 084116",
+                         "category":  "Other",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/other/Screenshot 2026-06-18 084116.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-051",
+                         "title":  "Screenshot 2026 06 18 084145",
+                         "category":  "Other",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/other/Screenshot 2026-06-18 084145.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-081",
+                         "title":  "Screenshot 2026 06 18 084155",
+                         "category":  "Other",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/other/Screenshot 2026-06-18 084155.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-082",
+                         "title":  "Screenshot 2026 08 19 075903",
+                         "category":  "Other",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/other/Screenshot 2026-08-19 075903.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-083",
+                         "title":  "Screenshot 2026 08 31 110028",
+                         "category":  "Other",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/other/Screenshot 2026-08-31 110028.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-069",
+                         "title":  "Ezgif 746D2de5eb5bc20e",
+                         "category":  "Sedna",
+                         "year":  2026,
+                         "medium":  "Animation",
+                         "image":  "assets/art/sedna/ezgif-746d2de5eb5bc20e.gif",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-052",
+                         "title":  "Screenshot 2026 03 23 124507",
+                         "category":  "Sedna",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/sedna/Screenshot 2026-03-23 124507.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-053",
+                         "title":  "Screenshot 2026 03 30 163447",
+                         "category":  "Sedna",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/sedna/Screenshot 2026-03-30 163447.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-070",
+                         "title":  "Screenshot 2026 04 12 164711",
+                         "category":  "Sedna",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/sedna/Screenshot 2026-04-12 164711.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-071",
+                         "title":  "Screenshot 2026 06 03 101410",
+                         "category":  "Sedna",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/sedna/Screenshot 2026-06-03 101410.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-072",
+                         "title":  "Sednawub2",
+                         "category":  "Sedna",
+                         "year":  2026,
+                         "medium":  "Animation",
+                         "image":  "assets/art/sedna/sednawub2.gif",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-055",
+                         "title":  "Vehicals And Buildings3",
+                         "category":  "Vehicles",
+                         "year":  2026,
+                         "medium":  "Full Color",
+                         "image":  "assets/art/vehicles/vehicals and buildings3.jpg",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-056",
+                         "title":  "Vehicals And Buildings4",
+                         "category":  "Vehicles",
+                         "year":  2026,
+                         "medium":  "Full Color",
+                         "image":  "assets/art/vehicles/vehicals and buildings4.jpg",
+                         "description":  "Artwork by BuniMunki."
+                     }
+                 ],
+    "comics":  [
+                   {
+                       "slug":  "acb-funny-comic",
+                       "title":  "Apprehension and Collection Bureau",
+                       "description":  "A funny comic series following GG, strange errands, and an even stranger brownie recipe.",
+                       "chapters":  [
+                                        {
+                                            "slug":  "chapter-01",
+                                            "title":  "GG gets errands",
+                                            "year":  2026,
+                                            "cover":  "assets/comics/acb-funny-comic/chapter-01/001.jpg",
+                                            "pages":  [
+                                                          "001.jpg",
+                                                          "002.jpg",
+                                                          "003.jpg",
+                                                          "004.jpg",
+                                                          "005.jpg",
+                                                          "006.jpg",
+                                                          "007.jpg"
+                                                      ]
+                                        },
+                                        {
+                                            "slug":  "chapter-02",
+                                            "title":  "Narpnip",
+                                            "year":  2026,
+                                            "cover":  "assets/comics/acb-funny-comic/chapter-02/001.jpg",
+                                            "pages":  [
+                                                          "001.jpg",
+                                                          "002.jpg",
+                                                          "003.jpg",
+                                                          "004.jpg",
+                                                          "005.jpg"
+                                                      ]
+                                        }
+                                    ]
+                   }
+               ]
+}

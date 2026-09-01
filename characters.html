@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Characters | Apprehension and Collection Bureau</title>
+  <meta name="description" content="Meet Lydia, Sedna, and Glepglorp (GG) from Apprehension and Collection Bureau.">
+  <meta name="author" content="BuniMunki">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Bungee:wght@400&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ["Bungee", "sans-serif"],
+            body: ["Baloo 2", "sans-serif"]
+          }
+        }
+      }
+    };
+  </script>
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="font-body antialiased characters-page">
+  <a class="skip-link" href="#charactersPage">Skip to content</a>
+
+  <header class="top-nav fixed top-0 z-50 w-full border-b border-white/10 backdrop-blur-lg">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 md:px-8" aria-label="Main navigation">
+      <a id="brandName" href="index.html" class="brand font-display text-lg tracking-wide">Apprehension and Collection Bureau</a>
+      <ul class="hidden items-center gap-6 text-sm md:flex">
+        <li><a href="index.html#home" class="nav-link">Home</a></li>
+        <li><a href="gallery.html" class="nav-link">Art Gallery</a></li>
+        <li><a href="webcomic.html" class="nav-link">Webcomics</a></li>
+        <li><a href="characters.html" class="nav-link">Characters</a></li>
+        <li><a href="arcade.html" class="nav-link">Arcade</a></li>
+        <li><a href="index.html#about" class="nav-link">About</a></li>
+      </ul>
+      <div class="flex items-center gap-2">
+        <button id="mobileNavBtn" class="btn-ghost md:hidden" aria-label="Open mobile menu" type="button">Menu</button>
+      </div>
+    </nav>
+    <div id="mobileNav" class="mobile-nav hidden border-t border-white/10 px-4 py-3 md:hidden">
+      <a href="index.html#home" class="mobile-link">Home</a>
+      <a href="gallery.html" class="mobile-link">Art Gallery</a>
+      <a href="webcomic.html" class="mobile-link">Webcomics</a>
+      <a href="characters.html" class="mobile-link">Characters</a>
+      <a href="arcade.html" class="mobile-link">Arcade</a>
+      <a href="index.html#about" class="mobile-link">About</a>
+    </div>
+  </header>
+
+  <main id="charactersPage" class="section-pad characters-page-shell">
+    <section class="characters-stage" aria-labelledby="charactersStageTitle">
+      <div class="sr-only">
+        <h1 id="charactersStageTitle" class="section-title">Character Showcase</h1>
+        <p>Pick a mini profile to warp a character into the pod. Click the splash or gallery images to open full view.</p>
+      </div>
+
+      <div class="warp-layout">
+        <article class="warp-pod" id="warpPod">
+          <div class="warp-stage">
+            <div class="warp-rings" aria-hidden="true"></div>
+            <div class="warp-beam" aria-hidden="true"></div>
+            <button id="warpMainImageBtn" class="warp-main" type="button" aria-label="Open active character splash image">
+              <img id="warpMainImage" src="" alt="Active character splash" loading="lazy">
+            </button>
+          </div>
+          <div class="warp-detail-stack">
+            <div class="warp-copy">
+              <p id="warpRole" class="meta-label"></p>
+              <h2 id="warpName" class="font-display text-3xl"></h2>
+              <p id="warpBio" class="mt-2 text-sm leading-7 opacity-90"></p>
+            </div>
+            <div class="gallery-showcase">
+              <button id="warpGalleryPrev" class="gallery-arrow" type="button" aria-label="Scroll gallery left">Prev</button>
+              <div id="warpGallery" class="character-thumb-row"></div>
+              <button id="warpGalleryNext" class="gallery-arrow" type="button" aria-label="Scroll gallery right">Next</button>
+            </div>
+          </div>
+        </article>
+
+        <aside class="warp-sidebar">
+          <h3 class="font-display text-xl">Crew Profiles</h3>
+          <p class="mt-2 text-sm opacity-85">Tap a profile to cycle who appears in the warp pod.</p>
+          <button id="soundToggle" class="btn-ghost sound-toggle mt-3" type="button" aria-label="Toggle warp sound effects">Warp SFX: On</button>
+          <div id="profileChooser" class="profile-chooser mt-4"></div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <div id="lightbox" class="modal hidden" role="dialog" aria-modal="true" aria-label="Character viewer">
+    <div class="modal-backdrop" data-close="lightbox"></div>
+    <div class="modal-panel lightbox-panel">
+      <button class="modal-close" type="button" data-close="lightbox" aria-label="Close character viewer">x</button>
+      <button id="lightboxPrev" class="modal-nav left" type="button" aria-label="Previous image">Prev</button>
+      <img id="lightboxImage" src="" alt="Character full view" class="lightbox-image">
+      <button id="lightboxNext" class="modal-nav right" type="button" aria-label="Next image">Next</button>
+      <p id="lightboxCaption" class="mt-4 text-sm"></p>
+    </div>
+  </div>
+
+  <script src="js/characters.js" defer></script>
+</body>
+</html>

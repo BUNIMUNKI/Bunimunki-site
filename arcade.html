@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arcade | Apprehension and Collection Bureau</title>
+  <meta name="description" content="Play GO GET EM GG, a browser game by BuniMunki.">
+  <meta name="author" content="BuniMunki">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Bungee:wght@400&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ["Bungee", "sans-serif"],
+            body: ["Baloo 2", "sans-serif"]
+          }
+        }
+      }
+    };
+  </script>
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="font-body antialiased">
+  <a class="skip-link" href="#arcadePage">Skip to content</a>
+
+  <header class="top-nav fixed top-0 z-50 w-full border-b border-white/10 backdrop-blur-lg">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 md:px-8" aria-label="Main navigation">
+      <a id="brandName" href="index.html" class="brand font-display text-lg tracking-wide">Apprehension and Collection Bureau</a>
+      <ul class="hidden items-center gap-6 text-sm md:flex">
+        <li><a href="index.html#home" class="nav-link">Home</a></li>
+        <li><a href="gallery.html" class="nav-link">Art Gallery</a></li>
+        <li><a href="webcomic.html" class="nav-link">Webcomics</a></li>
+        <li><a href="characters.html" class="nav-link">Characters</a></li>
+        <li><a href="arcade.html" class="nav-link">Arcade</a></li>
+        <li><a href="index.html#about" class="nav-link">About</a></li>
+      </ul>
+      <div class="flex items-center gap-2">
+        <button id="mobileNavBtn" class="btn-ghost md:hidden" aria-label="Open mobile menu" type="button">Menu</button>
+      </div>
+    </nav>
+    <div id="mobileNav" class="mobile-nav hidden border-t border-white/10 px-4 py-3 md:hidden">
+      <a href="index.html#home" class="mobile-link">Home</a>
+      <a href="gallery.html" class="mobile-link">Art Gallery</a>
+      <a href="webcomic.html" class="mobile-link">Webcomics</a>
+      <a href="characters.html" class="mobile-link">Characters</a>
+      <a href="arcade.html" class="mobile-link">Arcade</a>
+      <a href="index.html#about" class="mobile-link">About</a>
+    </div>
+  </header>
+
+  <main id="arcadePage" class="section-pad">
+    <section class="mx-auto max-w-5xl px-4 md:px-8">
+      <div class="mb-8">
+        <h1 class="section-title">Arcade</h1>
+        <p class="section-subtitle">GO GET EM GG &mdash; a browser game by BuniMunki. Loads in-page below; give it a moment to boot up.</p>
+      </div>
+
+      <div class="arcade-frame-shell">
+        <iframe
+          class="arcade-frame"
+          src="assets/game/crate-rush/index.html"
+          title="GO GET EM GG game"
+          allow="autoplay; fullscreen; gamepad"
+          allowfullscreen
+          loading="lazy"
+        ></iframe>
+      </div>
+
+      <p class="mt-4 text-sm">
+        <a id="arcadeFullscreenLink" href="assets/game/crate-rush/index.html" target="_blank" rel="noopener" class="nav-link">Open in a new tab</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/10 py-8">
+    <div class="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-4 text-sm md:px-8">
+      <p id="footerText"></p>
+      <a href="index.html#home" class="nav-link">Back to home</a>
+    </div>
+  </footer>
+
+  <script src="js/arcade.js" defer></script>
+</body>
+</html>
