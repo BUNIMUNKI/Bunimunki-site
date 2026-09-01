@@ -518,11 +518,12 @@ html[data-theme="light"] .section-title {
 }
 
 @keyframes lydiaFloat {
-  0% {
+  0%,
+  100% {
     transform: scale(1.05) translateX(-4px);
   }
 
-  100% {
+  50% {
     transform: scale(1.05) translateX(4px);
   }
 }
@@ -538,7 +539,7 @@ html[data-theme="light"] .section-title {
   .hero-pinup-image {
     --lydia-base-scale: 1.05;
     transform-origin: left center;
-    animation: lydiaFloat 6.8s ease-in-out infinite alternate;
+    animation: lydiaFloat 6.8s ease-in-out infinite;
   }
 }
 
