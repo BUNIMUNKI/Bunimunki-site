@@ -276,6 +276,8 @@ html[data-theme="light"] .brand:hover {
 .btn-primary,
 .btn-secondary,
 .btn-ghost {
+  position: relative;
+  overflow: hidden;
   border-radius: 9999px;
   padding: 0.7rem 1.18rem;
   font-size: 0.96rem;
@@ -284,6 +286,26 @@ html[data-theme="light"] .brand:hover {
   border: 3px solid var(--line);
   box-shadow: 0 4px 0 var(--line);
   font-weight: 800;
+}
+
+.btn-primary::after,
+.btn-secondary::after,
+.btn-ghost::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  left: -150%;
+  width: 60%;
+  background: linear-gradient(115deg, transparent 20%, rgba(255, 255, 255, 0.7) 50%, transparent 80%);
+  transform: skewX(-20deg);
+  pointer-events: none;
+}
+
+.btn-primary:hover::after,
+.btn-secondary:hover::after,
+.btn-ghost:hover::after {
+  left: 150%;
+  transition: left 2s ease;
 }
 
 .btn-primary {
@@ -467,6 +489,27 @@ html[data-theme="light"] .section-title {
   transform: translateY(2px);
   box-shadow: 0 2px 0 var(--line);
   filter: brightness(1.03);
+}
+
+.hero-quick-link {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-quick-link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  left: -150%;
+  width: 60%;
+  background: linear-gradient(115deg, transparent 20%, rgba(255, 255, 255, 0.7) 50%, transparent 80%);
+  transform: skewX(-20deg);
+  pointer-events: none;
+}
+
+.hero-quick-link:hover::after {
+  left: 150%;
+  transition: left 2s ease;
 }
 
 .hero-pinup-image {
