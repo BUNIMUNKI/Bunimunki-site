@@ -28,14 +28,21 @@ body {
   min-height: 100vh;
   position: relative;
   background-color: #050505;
+  overflow-x: hidden;
+  color: var(--text);
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
   background-image: url("../webcomic-site-futuristic-portfoliotheme-reference/metalbackground.jpg?v=3");
   background-size: contain;
   background-position: calc(50% - 8px) 68px;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  overflow-x: hidden;
-  color: var(--text);
-  transition: background 0.35s ease, color 0.35s ease;
 }
 
 html[data-theme="light"] {
@@ -58,12 +65,11 @@ html[data-theme="light"] {
   --scrollbar-thumb-glow: inset 0 1px 0 rgba(255, 251, 242, 0.58), inset 0 -1px 0 rgba(120, 74, 33, 0.18);
 }
 
-html[data-theme="light"] body {
+html[data-theme="light"] body::before {
   background-image: url("../webcomic-site-futuristic-portfoliotheme-reference/metalbackground.jpg?v=3");
   background-size: contain;
   background-position: calc(50% - 8px) 68px;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 html {
