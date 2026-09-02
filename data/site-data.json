@@ -162,12 +162,21 @@
                          "description":  "Artwork by BuniMunki."
                      },
                      {
-                         "id":  "art-010",
-                         "title":  "Glepglorpcolorref",
+                         "id":  "art-084",
+                         "title":  "Ggsticker",
                          "category":  "Glepglorp (GG)",
                          "year":  2026,
                          "medium":  "Full Color",
-                         "image":  "assets/art/gg/glepglorpcolorref.jpg",
+                         "image":  "assets/art/gg/ggsticker.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-085",
+                         "title":  "Glepglorpcolorrefsfw",
+                         "category":  "Glepglorp (GG)",
+                         "year":  2026,
+                         "medium":  "Full Color",
+                         "image":  "assets/art/gg/glepglorpcolorrefsfw.jpg",
                          "description":  "Artwork by BuniMunki."
                      },
                      {
@@ -231,6 +240,24 @@
                          "year":  2026,
                          "medium":  "Sketch",
                          "image":  "assets/art/gg/Screenshot 2026-03-23 124533.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-086",
+                         "title":  "Screenshot 2026 06 27 140307",
+                         "category":  "Glepglorp (GG)",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/gg/Screenshot 2026-06-27 140307.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-087",
+                         "title":  "Screenshot 2026 06 28 104729",
+                         "category":  "Glepglorp (GG)",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/gg/Screenshot 2026-06-28 104729.png",
                          "description":  "Artwork by BuniMunki."
                      },
                      {
@@ -627,6 +654,15 @@
                          "year":  2026,
                          "medium":  "Sketch",
                          "image":  "assets/art/sedna/Screenshot 2026-06-03 101410.png",
+                         "description":  "Artwork by BuniMunki."
+                     },
+                     {
+                         "id":  "art-088",
+                         "title":  "Screenshot 2026 07 07 191146",
+                         "category":  "Sedna",
+                         "year":  2026,
+                         "medium":  "Sketch",
+                         "image":  "assets/art/sedna/Screenshot 2026-07-07 191146.png",
                          "description":  "Artwork by BuniMunki."
                      },
                      {
