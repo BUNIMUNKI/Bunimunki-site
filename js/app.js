@@ -28,6 +28,9 @@ const LYDIA_HERO_IMAGE_PATH = "assets/webcomic-site-futuristic-portfoliotheme-re
 const LYDIA_BOOB_GIF_PATH = "assets/webcomic-site-futuristic-portfoliotheme-reference/boobjiggle.gif";
 const LYDIA_BUTT_GIF_PATH = "assets/webcomic-site-futuristic-portfoliotheme-reference/buttjiggle.gif";
 const LYDIA_HITBOX_GIF_FALLBACK_MS = 1200;
+const COPPERHEAD_STATIC_PATH = "assets/webcomic-site-futuristic-portfoliotheme-reference/copperhead.png";
+const COPPERHEAD_GIF_PATH = "assets/webcomic-site-futuristic-portfoliotheme-reference/copperhead.gif";
+const COPPERHEAD_GIF_COOLDOWN_MS = 2000;
 
 const lydiaSpankSoundPaths = [
   "assets/webcomic-site-futuristic-portfoliotheme-reference/spank1.mp3",
@@ -104,6 +107,7 @@ async function init() {
 
   renderSiteMeta();
   installLydiaSpankSound();
+  installCopperheadGifHover();
   renderAbout();
   if (elements.galleryGrid && elements.filterCategory && elements.filterYear && elements.filterMedium) {
     setupFilters();
@@ -728,6 +732,33 @@ function installLydiaSpankSound() {
   });
 }
 
+function installCopperheadGifHover() {
+  const flashlight = elements.copperheadFlashlight;
+  if (!flashlight) {
+    return;
+  }
+
+  const imageNode = flashlight.querySelector(".hero-copperhead-image");
+  if (!imageNode) {
+    return;
+  }
+
+  let isPlaying = false;
+
+  flashlight.addEventListener("pointerenter", () => {
+    if (isPlaying) {
+      return;
+    }
+
+    isPlaying = true;
+    imageNode.src = `${COPPERHEAD_GIF_PATH}?play=${Date.now()}`;
+
+    window.setTimeout(() => {
+      imageNode.src = COPPERHEAD_STATIC_PATH;
+      isPlaying = false;
+    }, COPPERHEAD_GIF_COOLDOWN_MS);
+  });
+}
 
 async function playLydiaHitboxGif(imageNode, gifPath) {
   window.clearTimeout(state.heroBoobGifTimer);

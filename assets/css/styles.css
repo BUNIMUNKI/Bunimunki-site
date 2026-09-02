@@ -433,30 +433,6 @@ html[data-theme="light"] .section-title {
   max-height: 225px;
 }
 
-.hero-copperhead-flashlight::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  left: -150%;
-  width: 60%;
-  pointer-events: none;
-  background: linear-gradient(115deg, transparent 20%, rgba(255, 255, 255, 0.7) 50%, transparent 80%);
-  transform: skewX(-20deg);
-  -webkit-mask-image: url("../webcomic-site-futuristic-portfoliotheme-reference/copperhead.png");
-  -webkit-mask-size: contain;
-  -webkit-mask-position: center;
-  -webkit-mask-repeat: no-repeat;
-  mask-image: url("../webcomic-site-futuristic-portfoliotheme-reference/copperhead.png");
-  mask-size: contain;
-  mask-position: center;
-  mask-repeat: no-repeat;
-}
-
-.hero-copperhead-flashlight:hover::after {
-  left: 150%;
-  transition: left 2s ease;
-}
-
 .hero-quick-link {
   display: inline-flex;
   align-items: center;
