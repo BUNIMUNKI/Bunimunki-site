@@ -104,7 +104,6 @@ async function init() {
 
   renderSiteMeta();
   installLydiaSpankSound();
-  installCopperheadFlashlight();
   renderAbout();
   if (elements.galleryGrid && elements.filterCategory && elements.filterYear && elements.filterMedium) {
     setupFilters();
@@ -729,34 +728,6 @@ function installLydiaSpankSound() {
   });
 }
 
-function installCopperheadFlashlight() {
-  const flashlight = elements.copperheadFlashlight;
-  if (!flashlight) {
-    return;
-  }
-
-  const paintFlashlight = (event) => {
-    const bounds = flashlight.getBoundingClientRect();
-    const relativeX = ((event.clientX - bounds.left) / bounds.width) * 100;
-    const relativeY = ((event.clientY - bounds.top) / bounds.height) * 100;
-    const clampedX = Math.max(0, Math.min(100, relativeX));
-    const clampedY = Math.max(0, Math.min(100, relativeY));
-
-    flashlight.style.setProperty("--flashlight-x", `${clampedX}%`);
-    flashlight.style.setProperty("--flashlight-y", `${clampedY}%`);
-  };
-
-  flashlight.addEventListener("pointerenter", (event) => {
-    flashlight.classList.add("is-lit");
-    paintFlashlight(event);
-  });
-
-  flashlight.addEventListener("pointermove", paintFlashlight);
-
-  flashlight.addEventListener("pointerleave", () => {
-    flashlight.classList.remove("is-lit");
-  });
-}
 
 async function playLydiaHitboxGif(imageNode, gifPath) {
   window.clearTimeout(state.heroBoobGifTimer);

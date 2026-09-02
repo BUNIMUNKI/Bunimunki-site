@@ -418,9 +418,6 @@ html[data-theme="light"] .section-title {
 }
 
 .hero-copperhead-flashlight {
-  --flashlight-x: 50%;
-  --flashlight-y: 50%;
-  --flashlight-size: 150px;
   position: relative;
   width: 100%;
   max-width: 225px;
@@ -440,19 +437,11 @@ html[data-theme="light"] .section-title {
   content: "";
   position: absolute;
   inset: 0;
+  left: -150%;
+  width: 60%;
   pointer-events: none;
-  opacity: 0;
-  transition: opacity 170ms ease;
-  background:
-    radial-gradient(
-      circle var(--flashlight-size) at var(--flashlight-x) var(--flashlight-y),
-      rgba(225, 191, 95, 0.34) 0%,
-      rgba(225, 191, 95, 0.24) 30%,
-      rgba(225, 191, 95, 0.14) 52%,
-      rgba(225, 191, 95, 0.06) 72%,
-      rgba(225, 191, 95, 0) 100%
-    );
-  filter: blur(8px);
+  background: linear-gradient(115deg, transparent 20%, rgba(255, 255, 255, 0.7) 50%, transparent 80%);
+  transform: skewX(-20deg);
   -webkit-mask-image: url("../webcomic-site-futuristic-portfoliotheme-reference/copperhead.png");
   -webkit-mask-size: contain;
   -webkit-mask-position: center;
@@ -461,11 +450,11 @@ html[data-theme="light"] .section-title {
   mask-size: contain;
   mask-position: center;
   mask-repeat: no-repeat;
-  mix-blend-mode: screen;
 }
 
-.hero-copperhead-flashlight.is-lit::after {
-  opacity: 0.82;
+.hero-copperhead-flashlight:hover::after {
+  left: 150%;
+  transition: left 2s ease;
 }
 
 .hero-quick-link {
